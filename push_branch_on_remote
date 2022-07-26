@@ -1,0 +1,5 @@
+git checkout -b <branch>
+# Edit files, add and commit. Then push with the -u (short for --set-upstream) option:
+
+git push -u origin <branch>
+# Git will set up the tracking information during the push.
