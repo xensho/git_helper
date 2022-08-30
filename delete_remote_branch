@@ -1,0 +1,2 @@
+# How to remove feature/upgrade_cicd01 branch from remote
+git push origin --delete feature/upgrade_cicd01
