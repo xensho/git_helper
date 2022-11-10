@@ -1,0 +1,18 @@
+# Rebase develop TO release/v1
+
+# First checkout DEVELOP branch
+git checkout develop
+
+# Make sure that your DEVELOP is up to date
+git pull
+# or
+git pull develop
+
+# Checkout your release/v1 branch
+git checkout release/v1
+
+# Rebase with DESIRED branch, in our case DEVELOP
+git rebase develop
+
+# Finally push the release/v1 branch
+git push
