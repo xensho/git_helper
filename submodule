@@ -1,0 +1,6 @@
+## Remove submodule
+# Run 
+git rm <path-to-submodule>
+# and commit.
+
+## 
