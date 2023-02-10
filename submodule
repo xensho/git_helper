@@ -3,4 +3,7 @@
 git rm <path-to-submodule>
 # and commit.
 
-## 
+## Add submodule
+# any_name is there in case you need to rename the submodule
+# folder_name is there in case you need to have submodule in different folder name instead of it's original name.
+git submodule add --name any_name https://host.gitlab.com/any_repo.git folder_name
