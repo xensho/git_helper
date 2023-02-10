@@ -1,0 +1,9 @@
+## This article is on the ‘git clean’ command, which is used to delete untracked files from the local working tree. 
+# Often, when DevOps professional talk about a ‘git clean’, they often want to squash commits and rebase master to a branch or a branch to master. 
+# However, if your focus is to remove untracked files with the ‘git clean’ command.
+
+Run ‘git clean -n’ to see a dry run;
+Run ‘git clean -f’ to force untracked file deletion;
+Use ‘git clean -f -d’ to remove untracked directories;
+Use ‘git clean -f -x’ to remove untracked .gitignore files; and
+Add the -i switch to do an interactive ‘git clean’.
